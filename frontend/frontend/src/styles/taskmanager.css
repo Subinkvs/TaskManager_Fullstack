@@ -1,0 +1,41 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .btn {
+    border-radius: 20px;
+  }
+  
+  .todo-title {
+    font-size: 1.1rem;
+  }
+  
+  .completed-todo {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  /* Modal Styles */
+  .modal-content {
+    border-radius: 10px;
+  }
+  
+  .modal-header,
+  .modal-footer {
+    border: none;
+  }
+  
+  /* Responsive Task List */
+  @media (max-width: 768px) {
+    .btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
